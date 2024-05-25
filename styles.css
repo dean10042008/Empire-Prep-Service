@@ -326,3 +326,106 @@ img#courier {
     border-radius: 100%;
     background-color: #F3F3F3;
 }
+
+aside {
+    position: relative;
+    background-color: #313131;
+    width: 98.5vw;
+    height: 658px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: -1;
+    gap: 2em;
+}
+
+#background-map {
+    opacity: 0.15;
+    position: absolute;
+    width: 1538px;
+    height: 658px;
+    z-index: -1;
+}
+
+aside h2 {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+    padding-bottom: 6px;
+    text-align: center;
+}
+
+aside h2 span {
+    text-decoration: #EF7B3E underline 2px;
+    text-underline-offset: 10px;
+}
+
+aside h3 {
+    max-width: 96ch;
+    text-align: center;
+    font-family: "Lato";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+aside > #services {
+    position: relative;
+    bottom: -8em;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+}
+
+aside > #services div {
+    display: flex;
+    width: 363px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 2em 1em #0000001A;
+}
+
+aside > #services img {
+    position: relative;
+    top: -6em;
+    width: 90%;
+    height: 217px;
+    border-radius: 10px;
+}
+
+aside > #services h4 {
+    position: relative;
+    top: -2em;
+    color: #2E2E2E;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 21px;
+}
+
+aside > #services p {
+    position: relative;
+    top: -2em;
+    font-family: "Lato";
+    font-weight: 500;
+    line-height: 28px;
+    font-size: 15px;
+    text-align: center;
+    max-width: 35ch;
+    margin: 6px;
+}
+
+aside > #services a {
+    position: relative;
+    top: -1em;
+    color: #EF7B3E;
+    text-decoration: 1px #EF7B3E underline;
+    text-underline-offset: 3px;
+}
