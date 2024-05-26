@@ -423,9 +423,243 @@ aside > #services p {
 }
 
 aside > #services a {
+    font-family: "Poppins";
+    font-weight: 600;
+    line-height: 21px;
     position: relative;
     top: -1em;
     color: #EF7B3E;
     text-decoration: 1px #EF7B3E underline;
     text-underline-offset: 3px;
+}
+
+#price {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10em;
+}
+
+#price > .title-subtitle {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+}
+
+#price > .title-subtitle h2 {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+    text-align: center;
+    color: #313131;
+}
+
+#price > .title-subtitle h3 {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #2E2E2E;
+    margin: 1em 0;
+}
+
+#price > .title-subtitle p {
+    font-family: "Lato";
+    line-height: 23px;
+    text-align: center;
+    max-width: 110ch;
+    color: #2E2E2E;
+}
+
+#price > .title-subtitle button {
+    font-family: "Poppins";
+    font-weight: 600;
+    line-height: 24px;
+    background-color: #EF7B3E;
+    color: #FFFFFF;
+    padding: 7px 20px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 23px;
+    align-self: center;
+    width: fit-content;
+}
+
+.graph {
+    display: flex;
+    gap: 200px;
+    margin: 4em 0;
+}
+
+.graph > img {
+    position: absolute;
+    width: 294px;
+    height: 39px;
+}
+
+.graph  > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.graph h4 {
+    margin: 1em 0;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.graph p {
+    font-family: "Lato";
+    line-height: 22px;
+    text-align: center;
+    color: #515151;
+}
+
+.graph .shipping > p {
+    width: 25ch;
+}
+
+.graph .instruction > p {
+    width: 33ch;
+}
+
+.graph .transport > p {
+    width: 30ch;
+}
+
+.graph > div img {
+    align-self: center;
+}
+
+.shipping img {
+    width: 123px;
+    height: 96px;
+}
+
+.instruction img {
+    width: 80px;
+    height: 96px;
+}
+
+.transport img {
+    width: 134px;
+    height: 85px;
+}
+
+#arrow-1 {
+    margin-top: 1em;
+    left: 23em;
+    width: 350px;
+}
+
+#arrow-2 {
+    transform: rotateX(-180deg);
+    left: 51em;
+    margin-top: 3em;
+    width: 350px;
+}
+
+#team {
+    height: 722px;
+    background-color: #EF7B3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 6em;
+}
+
+#team .title {
+    display: flex;
+    flex-direction: column;
+}
+
+#team .title h2 {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+    align-self: center;
+}
+
+#team .title p {
+    font-family: "Lato";
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 83ch;
+    margin: 2em 0;
+}
+
+.photos {
+    width: 98vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 4em;
+}
+
+.photos div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.photos .mid {
+    background-color: #FFFFFF;
+    padding: 2em 4em;
+    border-radius: 10px;
+    margin-top: -2em;
+    box-shadow: 0 0 24em -1em #00000021;
+}
+
+.photos img {
+    width: 188px;
+    height: 188px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.side img {
+    box-shadow: 0 0 24em 0 #0000001A;
+}
+
+.photos h3 {
+    text-transform: uppercase;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 1.3em 0;
+}
+
+.side > h3 {
+    color: #FFFFFF;
+}
+
+.mid > h3 {
+    color: #313131;
+}
+
+.photos h4 {
+    text-transform: uppercase;
+    font-family: "Poppins";
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.side > h4 {
+    color: #FFFFFF;
+}
+
+.mid > h4 {
+    color: #EF7B3E;   
 }
